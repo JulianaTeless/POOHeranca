@@ -1,6 +1,6 @@
 public class ProfessorPesquisador 
-extends Pessoa{
+extends Professor{
     public void pesquisar(){
-        System.out.printf("%s pesquisando", nome);
+        System.out.printf("%s Pesquisando...", nome);
     }
 }
